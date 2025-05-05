@@ -34,7 +34,7 @@ document
 // Fonction pour gérer le bouton sparkle
 document.getElementById("sparkleButton").addEventListener("click", function () {
   // Chemin vers votre fichier PDF
-  var pdfPath = "/assets/CV.pdf";
+  var pdfPath = "./assets/CV.pdf";
 
   // Créer un lien
   var link = document.createElement("a");
